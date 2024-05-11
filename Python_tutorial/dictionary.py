@@ -1,0 +1,20 @@
+a={"name":"abhinav","email":"abiappu512@gmail.com","mobno":8921410392}
+print(a)
+print(a["name"])
+b=a.get("email")
+print(b)
+a["name"]="athira"
+print(a)
+a["email"]="athira123@gmail.com"
+print(a)
+print(len(a))
+a["age"]=25
+print(a)
+c=a.copy()
+print(c)
+a.pop("email")
+print(a)
+del a["age"]
+print(a)
+a.clear()
+print(a)

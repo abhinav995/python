@@ -1,0 +1,15 @@
+h={10,11,12,13,14,15}
+print(h)
+print(len(h))
+i={20,21,22,23,24,25}
+print(i)
+i.add("hello")
+print(i)
+h.update("hai")
+print(h)
+h.remove("h")
+print(h)
+i.discard("hello")
+print(i)
+h.discard("ai")
+print(h)
